@@ -22,7 +22,7 @@ namespace ServerlessFunctionAppNew
 
             if (toDoItem == null)
             {
-                log.Info($"we are failed");
+                return new OkObjectResult("No data found");
             }
             else
             {
