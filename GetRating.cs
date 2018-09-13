@@ -22,7 +22,7 @@ namespace ServerlessFunctionAppNew
 
             if (toDoItem == null)
             {
-                log.Info($"ToDo item not found");
+                log.Info($"we are failed");
             }
             else
             {
